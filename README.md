@@ -27,7 +27,8 @@ This repository showcases my **Data Analytics projects** using Power BI, SQL, Ex
 - **Key Insights**:  
   - Profit Margin ~29%  
   - South region top revenue (~₹700K)  
-  - Product P010 best performer  
+  - Product P010 best performer
+  - Bangalore Hub has the highest sales
 - 📄 [Project Documentation](./Sales-Dashboard/Sales-Dashboard-Project-Documentation.pdf)  
 - 📊 [Screenshots](./Sales-Dashboard/Screenshots/)  
 
