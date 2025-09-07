@@ -25,14 +25,14 @@ This repository showcases my **Data Analytics projects** using Power BI, SQL, Ex
 - **Tools**: Power BI, DAX, Power Query  
 - **Dataset**: Simulated 20K+ sales transactions
 - _Download datasets here👇_
-  - [Cleaned-Datasets](./Sales-Dashboard/Sales-Datasets/Cleaned-Datasets/)
-  - [Original-Datasets](./Sales-Dashboard/Sales-Datasets/Original-Datasets/)
+  - [`Cleaned-Datasets`](./Sales-Dashboard/Sales-Datasets/Cleaned-Datasets/)
+  - [`Original-Datasets`](./Sales-Dashboard/Sales-Datasets/Original-Datasets/)
 - **Key Insights**:  
   - Profit Margin ~29%  
   - South region top revenue (~₹700K)  
   - Product P010 best performer
   - Bangalore Hub has the highest sales
-- 💹 [Sales & Profit Analysis Project](./Sales-Dashboard/Sales-Analysis-Dashboard-Project.pbix)
-- 📄 [Project Documentation](./Sales-Dashboard/Sales-Dashboard-Project-Documentation.pdf)  
-- 📊 [Screenshots](./Sales-Dashboard/Screenshots/)  
+- 💹 [`Sales & Profit Analysis Project`](./Sales-Dashboard/Sales-Analysis-Dashboard-Project.pbix)
+- 📄 [`Project Documentation`](./Sales-Dashboard/Sales-Dashboard-Project-Documentation.pdf)  
+- 📊 [`Screenshots`](./Sales-Dashboard/Screenshots/)  
 
