@@ -42,7 +42,10 @@ It provides executives and managers with actionable insights on revenue, profit,
 
 ---
 ### **📸 Dashboard-Demo**
-![Dashboard Demo](./Screenshots/Dashboard-Demo.gif)
+<p align="center">
+  <img src="./Screenshots/Dashboard-Demo.gif" alt="Dashboard Demo" width="600"/>
+</p>
+
 
 ### 📸 **Screenshots**
 
