@@ -13,7 +13,7 @@ This repository showcases my **Data Analytics projects** using Power BI, SQL, Ex
 - **Tools**: Power BI, DAX, Power Query  
 - **Dataset**: Simulated 20K+ sales transactions  
 - **Key Insights**:  
-  - Profit Margin ~2%  
+  - Profit Margin ~29%  
   - South region top revenue (~₹700K)  
   - Product P010 best performer  
 - 📄 [Project Documentation](./Sales-Dashboard/Sales-Dashboard-Project-Documentation.pdf)  
