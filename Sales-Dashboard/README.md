@@ -36,9 +36,9 @@ It provides executives and managers with actionable insights on revenue, profit,
 ---
 
 ### 🔹 Files Included
-- [`Sales Analysis Dashboard Project.pbix`](../Sales-Dashboard/Sales-Analysis-Dashboard-Project.pbix) → Power BI file
-- [`Sales Dashboard Project Documentation.pdf`](../Sales-Dashboard/Sales-Dashboard-Project-Documentation.pdf) → Full project report
-- [`Screenshots`](../Sales-Dashboard/Screenshots/) → Key visuals from dashboard  
+- [`Sales Analysis Dashboard Project.pbix`](./Sales-Analysis-Dashboard-Project.pbix) → Power BI file
+- [`Sales Dashboard Project Documentation.pdf`](./Sales-Dashboard-Project-Documentation.pdf) → Full project report
+- [`Screenshots`](./Screenshots/) → Key visuals from dashboard  
 
 ---
 
