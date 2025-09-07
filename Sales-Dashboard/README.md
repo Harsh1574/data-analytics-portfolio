@@ -41,7 +41,8 @@ It provides executives and managers with actionable insights on revenue, profit,
 - [`Screenshots`](./Screenshots/) → Key visuals from dashboard  
 
 ---
-### [**📸 Dashboard-Demo**](./Screenshots/Dashboard-Demo.gif)
+### **📸 Dashboard-Demo**
+![Dashboard Demo](./Screenshots/Dashboard Demo.gif)
 
 ### 📸 **Screenshots**
 
