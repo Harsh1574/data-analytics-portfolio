@@ -44,10 +44,10 @@ It provides executives and managers with actionable insights on revenue, profit,
 
 ### 📸 **Screenshots**
 
-1️⃣ **Main Dashboard**
+  1️⃣ **Main Dashboard**
 <img width="1040" height="636" alt="image" src="https://github.com/user-attachments/assets/f34823c8-3329-4fd4-89bb-eea00a71094e" />
 
-2️⃣ **Drill Through Dashboard**
+  2️⃣ **Drill Through Dashboard**
 <img width="1285" height="730" alt="image" src="https://github.com/user-attachments/assets/814f3b35-371b-4935-96cd-2e2ba9276979" />
 
 
