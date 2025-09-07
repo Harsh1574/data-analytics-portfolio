@@ -46,7 +46,12 @@ It provides executives and managers with actionable insights on revenue, profit,
 - [Cleaned Dataset (CSV)](./Sales-Datasets/Cleaned-Datasets/) → Final dataset used for analysis
 - [Raw Dataset (CSV)](./Sales-Datasets/Original-Datasets/) → Original dataset before cleaning
 
-_Data cleaning steps applied: removed duplicates, handled nulls, standardized columns, created calculated fields for Sales, Profit, and Margin._
+Data cleaning steps applied: 
+- Removed duplicates 
+- Handled nulls
+- Standardized columns
+- Created calculated fields for Sales, Profit, and Margin
+  
 
 ---
 
