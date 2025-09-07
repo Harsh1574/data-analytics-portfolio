@@ -41,6 +41,15 @@ It provides executives and managers with actionable insights on revenue, profit,
 - [`Screenshots`](./Screenshots/) → Key visuals from dashboard  
 
 ---
+
+### 📊 Datasets
+- [Cleaned Dataset (CSV)](./Sales-Datasets/Cleaned-Datasets/) → Final dataset used for analysis
+- [Raw Dataset (CSV)](./Sales-Datasets/Original-Datasets/) → Original dataset before cleaning
+
+_Data cleaning steps applied: removed duplicates, handled nulls, standardized columns, created calculated fields for Sales, Profit, and Margin._
+
+---
+
 ### **📸 Dashboard-Demo**
 <p align="center">
   <img src="./Screenshots/Dashboard-Demo.gif" alt="Dashboard Demo" width="600"/>
