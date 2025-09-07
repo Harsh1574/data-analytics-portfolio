@@ -16,6 +16,6 @@ This repository showcases my **Data Analytics projects** using Power BI, SQL, Ex
   - Profit Margin ~24%  
   - West region top revenue (~₹253K)  
   - Product P005 best performer  
-- 📄 [Project Documentation](./Sales-Profit-Dashboard/Sales-Dashboard-Project-Documentation.pdf)  
+- 📄 [Project Documentation](./Sales-Dashboard/Sales-Dashboard-Project-Documentation.pdf)  
 - 📊 [Screenshots](./Sales-Profit-Dashboard/Screenshots/)  
 
