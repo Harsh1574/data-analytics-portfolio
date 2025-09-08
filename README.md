@@ -15,7 +15,11 @@ This repository showcases my **Data Analytics projects** using Power BI, SQL, Ex
 ![Python](https://img.shields.io/badge/Language-Python-3776AB) 
 ![Power Query](https://img.shields.io/badge/ETL-Power%20Query-742774)  
 
+---
 
+##  📒 About Repository
+
+This repository is a collection of end-to-end Data Analytics projects including dashboards, case studies, and analysis using Power BI, SQL, Python, and Excel. Each project folder includes datasets, documentation, and visual outputs.
 
 ---
 
