@@ -22,11 +22,12 @@ This repository showcases my **Data Analytics projects** using Power BI, SQL, Ex
 ## 🔹 Projects
 
 ### 1. [Sales & Profit Analysis Dashboard](./Sales-Dashboard/README.md)
-- **Tools**: Power BI, DAX, Power Query  
-- **Dataset**: Simulated 20K+ sales transactions
-- _Download datasets here👇_
-  - [`Cleaned-Datasets`](./Sales-Dashboard/Sales-Datasets/Cleaned-Datasets/)
-  - [`Original-Datasets`](./Sales-Dashboard/Sales-Datasets/Original-Datasets/)
+- **Tools**: Power BI, DAX, Power Query
+  
+- 📂 **Datasets** : Simulated 20K+ sales transactions
+  - [Cleaned Dataset](./Sales-Dashboard/Sales-Datasets/Cleaned-Datasets) → Final dataset used for analysis  
+  - [Original Dataset](./Sales-Dashboard/Sales-Datasets/Original-Datasets) → Raw dataset before cleaning
+
 - **Key Insights**:  
   - Profit Margin ~29%  
   - South region top revenue (~₹700K)  
