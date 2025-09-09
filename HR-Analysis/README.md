@@ -66,9 +66,9 @@ In this dataset:
 
 ## 📂 Project Files  
 
-- 📓 [Jupyter Notebook](./HR-Attrition-Project.ipynb) → Full code for data cleaning, EDA, and visualizations  
-- 📑 [Documentation Report (PDF)](./HR-Attrition-Documentation.pdf) → Business insights and recommendations
-- 📓 [Cleaned Dataset](./HR-Attrition-clean.csv) → Final dataset prepared after cleaning and feature engineering 
+- 📓 [`Jupyter Notebook`](./HR-Attrition-Project.ipynb) → Full code for data cleaning, EDA, and visualizations  
+- 📑 [`Documentation Report (PDF)`](./HR-Attrition-Documentation.pdf) → Business insights and recommendations
+- 📓 [`Cleaned Dataset`](./HR-Attrition-clean.csv) → Final dataset prepared after cleaning and feature engineering 
 
 ---
 
@@ -107,7 +107,7 @@ In this dataset:
 📊 **Insight:** Job Level and Monthly Income are strongly correlated; Age and Work Experience align closely.  
 💡 **Recommendation:** Use these features to design predictive models and tailor retention strategies.  
 
-📂 *Additional visualizations are available in the [Screenshots folder](./Screenshots/).*  
+📂 *Additional visualizations are available in the [`Screenshots folder`](./Screenshots/).*  
 
 ---
 
