@@ -67,7 +67,8 @@ In this dataset:
 ## 📂 Project Files  
 
 - 📓 [Jupyter Notebook](./HR-Attrition-Project.ipynb) → Full code for data cleaning, EDA, and visualizations  
-- 📑 [Documentation Report (PDF)](./HR-Attrition-Documentation.pdf) → Business insights and recommendations  
+- 📑 [Documentation Report (PDF)](./HR-Attrition-Documentation.pdf) → Business insights and recommendations
+- 📓 [Cleaned Dataset](./HR-Attrition-clean.csv) → Final dataset prepared after cleaning and feature engineering 
 
 ---
 
