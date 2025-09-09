@@ -64,6 +64,13 @@ In this dataset:
 
 ---
 
+## 📂 Project Files  
+
+- 📓 [Jupyter Notebook](./HR-Attrition-Project.ipynb) → Full code for data cleaning, EDA, and visualizations  
+- 📑 [Documentation Report (PDF)](./HR-Attrition-Documentation.pdf) → Business insights and recommendations  
+
+---
+
 ## 📸 Highlighted Screenshots  
 
 ### Attrition by Department  
