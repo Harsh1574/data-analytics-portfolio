@@ -60,6 +60,13 @@ In this dataset, **~16% of employees left**, while **84% stayed**.
 - Attrition by Overtime
 - Correlation Heatmap (numeric features)
 
+---
+
+## 📸 Screenshots
+
+**Attrition By Overtime**
+![Attrition By Overtime](./Screenshots/attrititon-by-overtime.png)
+
 📌 *Screenshots of these charts are included in the [`Screenshots/`](./Screenshots/) folder.*
 
 ---
