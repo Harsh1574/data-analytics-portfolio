@@ -67,18 +67,22 @@ In this dataset, **~16% of employees left**, while **84% stayed**.
 **Attrition By Overtime**
 
 ![`Attrition By Overtime`](./Screenshots/attrition-by-overtime.png)
+<br>
 
 **Attrition By Monthly Income**
 
 ![`Attrition By Monthly Income`](./Screenshots/attrition-by-monthly-income.png)
+<br>
 
 **Attrition By Age**
 
 ![`Attrition By Age`](./Screenshots/attrition-by-age.png)
+<br>
 
 **Correlation Heatmap (using numeric data only)**
 
 ![`Correlation Heatmap`](./Screenshots/correlation-heatmap.png)
+<br>
 
 📌 *Screenshots of these charts are included in the [`Screenshots/`](./Screenshots/) folder.*
 
