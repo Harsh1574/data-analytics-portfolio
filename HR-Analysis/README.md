@@ -89,32 +89,32 @@ No installation needed — just open the notebook and start running.
 
 ## 📊 Business Insights
 
-1. **Overall Attrition**
+### 1. Overall Attrition
    - ~16% employees left the company.  
    - Attrition is a noticeable issue but not alarmingly high.
 
-2. **Department-Wise**
+### 2.  Department-Wise 
    - **Sales** shows the highest attrition (~20%).  
    - HR moderate (~14%), R&D slightly lower (~13%).  
 
-3. **Job Role-Wise**
+### 3. Job Role-Wise
    - **Sales Representatives** and **Lab Technicians** face the most turnover.  
    - **Managers** and **Directors** are the most stable roles.  
 
-4. **Demographics**
+### 4. Demographics
    - **Younger employees (<35 years)** are more likely to leave.  
    - Gender differences are minimal.  
    - Married employees tend to be more stable.  
 
-5. **Compensation**
+### 5. Compensation
    - Attrition is concentrated in **lower salary brackets**.  
    - Higher salaries strongly improve retention.  
 
-6. **Workload**
+### 6. Workload
    - Employees working **overtime** are ~3x more likely to leave.  
    - Work-life balance is a critical attrition factor.  
 
-7. **Numeric Correlations**
+### 7. Numeric Correlations
    - **Monthly Income ↔ Job Level** (strong positive correlation).  
    - **Age ↔ Total Working Years** (expected relationship).  
    - No single numeric feature fully explains attrition — it is multi-factorial.  
@@ -137,7 +137,7 @@ No installation needed — just open the notebook and start running.
 
 - 📓 [`Jupyter Notebook`](./HR-Attrition-Project.ipynb) → Full code for data cleaning, EDA, and visualizations  
 - 📑 [`Documentation Report (PDF)`](./HR-Attrition-Documentation.pdf) → Business insights and recommendations
-- 📓 [`Cleaned Dataset`](./HR-Attrition-clean.csv) → Final dataset prepared after cleaning and feature engineering 
+- 📒 [`Cleaned Dataset`](./HR-Attrition-clean.csv) → Final dataset prepared after cleaning and feature engineering 
 
 ---
 
