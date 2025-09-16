@@ -137,7 +137,7 @@ No installation needed — just open the notebook and start running.
 
 - 📓 [`Jupyter Notebook`](./HR-Attrition-Project.ipynb) → Full code for data cleaning, EDA, and visualizations  
 - 📑 [`Documentation Report (PDF)`](./HR-Attrition-Documentation.pdf) → Business insights and recommendations
-- 📒 [`Cleaned Dataset`](./HR-Attrition-clean.csv) → Final dataset prepared after cleaning and feature engineering 
+- 📒 [`Cleaned Dataset`](./Datasets/HR_Attrition_clean.csv) → Final dataset prepared after cleaning and feature engineering 
 
 ---
 
