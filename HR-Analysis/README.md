@@ -18,6 +18,75 @@ In this dataset:
 
 ---
 
+## 📊 Dataset Description
+
+The dataset used in this project is based on the **IBM HR Analytics Employee Attrition & Performance** dataset (publicly available on Kaggle).
+
+**Rows:** ~1,470 employees
+
+**Columns:** 35+ HR-related features
+
+## 🔹 Key Features
+
+
+**EmployeeID** → Unique identifier for each employee
+
+**Attrition** → Target variable (Yes = Employee left, No = Employee stayed)
+
+**Age** → Employee’s age
+
+**Department** → HR, Sales, R&D
+
+**JobRole** → Specific role (Sales Executive, Research Scientist, etc.)
+
+**MonthlyIncome** → Monthly salary
+
+**TotalWorkingYears** → Work experience
+
+**OverTime** → Whether employee worked overtime (Yes/No)
+
+**JobSatisfaction, WorkLifeBalance, EnvironmentSatisfaction** → Survey-based ratings
+
+## 🔹 Notes
+
+🧹 I performed data cleaning and transformations before analysis.
+
+📒 The cleaned dataset is available here 👉 [`HR_Attrition_clean.csv`](./Datasets/HR_Attrition_clean.csv)
+.
+
+📒 Raw dataset ([`HR_Attrition_raw.csv`](./Datasets/HR_Attrition_raw.csv)) is also included for reference.
+
+---
+## ⚙️ Installation & Setup
+
+You can run this project in two ways: **directly on Google Colab** or **locally on your system**.
+
+---
+
+### ▶️ Option 1: Run on Google Colab (Recommended)
+No installation needed — just open the notebook and start running.
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Harsh1574/data-analytics-portfolio/blob/main/HR-Analysis/HR-Attrition-Project.ipynb)
+
+---
+
+### 💻 Option 2: Run Locally
+1. #### 📥 Clone this repository:
+   ```bash
+   git clone https://github.com/Harsh1574/data-analytics-portfolio.git
+   cd data-analytics-portfolio/HR-Analysis
+
+2. #### ⚙️ Install the required dependencies:
+   ```bash
+   pip install -r requirements.txt
+
+3. #### 🚀 Launch Jupyter Notebook:
+   ```bash
+   jupyter notebook HR-Attrition-Project.ipynb
+
+---
+
+
 ## 📊 Business Insights
 
 1. **Overall Attrition**
