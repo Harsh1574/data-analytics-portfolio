@@ -56,7 +56,7 @@ Each project includes:
 
 ---
 
-### 2. 🔷 [Employee Attrition Analysis](./HR_Analysis/README.md) (Python & Streamlit)
+### 2. 🔷 [Employee Attrition Analysis](./HR-Analysis/README.md) (Python & Streamlit)
 - **Tools**: Python (Pandas, Matplotlib, Seaborn), Streamlit, Plotly
   
 - 📂 **Datasets** : IBM HR Analytics (~1,470 employees, 35+ features)
