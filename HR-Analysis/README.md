@@ -76,6 +76,8 @@ No installation needed — just open the notebook and start running.
    git clone https://github.com/Harsh1574/data-analytics-portfolio.git
    cd data-analytics-portfolio/HR-Analysis
 
+_This project requires Python 3.9+ and packages listed in [`requirements.txt`](./requirements.txt). To install dependencies run the command in Step 2👇_
+
 2. #### ⚙️ Install the required dependencies:
    ```bash
    pip install -r requirements.txt
