@@ -1,6 +1,6 @@
 # 📊 Data Analytics Portfolio
 
-Hi, I'm Harsvardhan Rajgarhia 👋  
+Hi, I'm **Harsvardhan Rajgarhia** 👋  
 3rd year B.Tech CSBS student | Aspiring Data Analyst  
 
 This repository showcases my **Data Analytics projects** using Power BI, SQL, Excel, and Python.  
