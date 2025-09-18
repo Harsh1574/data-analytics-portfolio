@@ -181,13 +181,15 @@ No installation needed — just open the notebook and start running.
 
 ![Summary Dhasboard](./Screenshots/summary-dashboard.png)  
 
-👉 **Overtime:** ~69% of leavers work overtime → target overtime policy & staffing.
+👉 **Department:** Sales has the highest attrition (20%).
 
-👉 **Income:** leavers are clustered at lower pay bands → floor bands or market corrections.
+👉 **Overtime:** ~69% of leavers work overtime.
 
-👉 **Job Roles:** Sales Rep & Lab Tech highest churn → role-specific retention.
+👉 **Income:** leavers are clustered at lower pay bands.
 
-👉 **Age:** early-career churn (25–35) → mentorship & fast-track growth programs.
+👉 **Job Roles:** Sales Rep & Lab Tech highest churn.
+
+👉 **Age:** early-career churn (25–35).
 
 📂 *Additional visualizations are available in the [`Screenshots folder`](./Screenshots/).*  
 
