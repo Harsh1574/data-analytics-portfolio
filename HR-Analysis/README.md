@@ -84,6 +84,10 @@ No installation needed — just open the notebook and start running.
    ```bash
    jupyter notebook HR-Attrition-Project.ipynb
 
+4. #### 🌐 (Optional) To run streamlit version:
+   ```bash
+   streamlit run dashboard.py
+
 ---
 
 
@@ -138,6 +142,7 @@ No installation needed — just open the notebook and start running.
 - 📓 [`Jupyter Notebook`](./HR-Attrition-Project.ipynb) → Full code for data cleaning, EDA, and visualizations  
 - 📑 [`Documentation Report (PDF)`](./HR-Attrition-Documentation.pdf) → Business insights and recommendations
 - 📒 [`Cleaned Dataset`](./Datasets/HR_Attrition_clean.csv) → Final dataset prepared after cleaning and feature engineering 
+- 📒 [`Requirements`](./requirements.txt) → Final dataset prepared after cleaning and feature engineering 
 
 ---
 
@@ -177,7 +182,7 @@ No installation needed — just open the notebook and start running.
 💡 **Recommendation:** Use these features to design predictive models and tailor retention strategies.  
 
 ---
-# 📈 Summary Dashboard
+## 📈 Summary Dashboard
 
 ![Summary Dhasboard](./Screenshots/summary-dashboard.png)  
 
