@@ -35,8 +35,8 @@ Each project includes:
 
 ---
 
-## 💹 Projects
-### 1. 🔷 [Sales & Profit Analysis Dashboard](./Sales-Dashboard/README.md) (Power BI)
+## 🚀 Projects
+### 1. 💹 [Sales & Profit Analysis Dashboard](./Sales-Dashboard/README.md) (Power BI)
 - **Tools**: Power BI, DAX, Power Query
   
 - 📂 **Datasets** : Simulated 20K+ sales transactions
@@ -56,7 +56,7 @@ Each project includes:
 
 ---
 
-### 2. 🔷 [Employee Attrition Analysis](./HR-Analysis/README.md) (Python & Streamlit)
+### 2. 👥 [Employee Attrition Analysis](./HR-Analysis/README.md) (Python & Streamlit)
 - **Tools**: Python (Pandas, Matplotlib, Seaborn), Streamlit, Plotly
   
 - 📂 **Datasets** : IBM HR Analytics (~1,470 employees, 35+ features)
