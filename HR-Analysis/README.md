@@ -176,6 +176,19 @@ No installation needed — just open the notebook and start running.
 📊 **Insight:** Job Level and Monthly Income are strongly correlated; Age and Work Experience align closely.  
 💡 **Recommendation:** Use these features to design predictive models and tailor retention strategies.  
 
+---
+# 📈 Summary Dashboard
+
+![Summary Dhasboard](./Screenshots/summary-dashboard.png)  
+
+👉 **Overtime:** ~69% of leavers work overtime → target overtime policy & staffing.
+
+👉 **Income:** leavers are clustered at lower pay bands → floor bands or market corrections.
+
+👉 **Job Roles:** Sales Rep & Lab Tech highest churn → role-specific retention.
+
+👉 **Age:** early-career churn (25–35) → mentorship & fast-track growth programs.
+
 📂 *Additional visualizations are available in the [`Screenshots folder`](./Screenshots/).*  
 
 ---
