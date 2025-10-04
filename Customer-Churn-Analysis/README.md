@@ -110,4 +110,8 @@ SWITCH(
 ---
 
 ## 📸 Dashboard Preview
+![Main Dashboard Preview](./Dashboard_Screenshots/Main_Dashboard.png)
+
+---
+
 
