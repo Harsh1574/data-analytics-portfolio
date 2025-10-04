@@ -63,7 +63,9 @@ _This project requires Python 3.9+ and packages listed in [`requirements.txt`](.
 
 3. #### 🚀 Launch Jupyter Notebook:
    ```bash
-   jupyter notebook PBIX_File/Customer_Churn_Dashboard.ipynb
+   jupyter notebook Notebooks/01_data_overview.ipynb
+   jupyter notebook Notebooks/02_data_eda.ipynb
+   
 
 
 
