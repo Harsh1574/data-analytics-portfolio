@@ -293,36 +293,40 @@ SWITCH(
 
 ## 📎 Quick Links
 
-[`Telco Customer Churn Dataset – Kaggle (Download dataset)`↗️](https://www.kaggle.com/datasets/blastchar/telco-customer-churn)
-
-[`Raw Dataset (CSV File)`↗️](./Datasets/telco_dataset_raw.csv)
-
-[`Cleaned Dataset (CSV File)`↗️](./Datasets/telco_dataset_cleaned.csv)
+[`EDA Notebook`↗️](./Notebooks/02_data_eda.ipynb)
 
 [`Power BI Dashboard`↗️](./PBIX_File/Customer_Churn_Dashboard.pbix)
 
-[`EDA Notebook`↗️](./Notebooks/02_data_eda.ipynb)
-
-[`Data cleaning and exploration file`↗️](./Notebooks/01_data_overview.ipynb)
-
-[`Python Dependencies File`↗️](./requirements.txt)
+[`Project Documentation`↗️](./PBIX_File/Customer_Churn_Dashboard.pbix)
 
 [`Dashboard Screenshots`↗️](./Dashboard_Screenshots/)
 
+[`Raw Dataset (CSV File)`↗️](./Datasets/telco_dataset_raw.csv)
+
+[`Python Dependencies File`↗️](./requirements.txt)
+
+[`Cleaned Dataset (CSV File)`↗️](./Datasets/telco_dataset_cleaned.csv)
+
 [`Python Visualizations Screenshots`↗️](./Screenshots/)
+
+
+[`Data cleaning and exploration file`↗️](./Notebooks/01_data_overview.ipynb)
 
 [`Business Insights & Recommendations`↗️](./Docs/insights.md)
 
-[`Project Documentation`↗️](./PBIX_File/Customer_Churn_Dashboard.pbix)
+[`Telco Customer Churn Dataset – Kaggle (Download dataset)`↗️](https://www.kaggle.com/datasets/blastchar/telco-customer-churn)
 
 ---
 
 ## 👤 Connect with me
 
 **Harshvardhan Rajgarhia**<br>
-📧 Email - `harsvardhanrajgarhia@gmail.com`<br>
-🔗 [`LinkedIn Profile`](https://www.linkedin.com/in/harshvardhan-rajgarhia-ba62982a4)<br>
-📁 [`Portfolio Repository`](https://github.com/Harsh1574/data-analytics-portfolio)<br>
+
+[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:harshvardhanrajgarhia@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/harshvardhan-rajgarhia-ba62982a4)
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Harsh1574/data-analytics-portfolio)
+
+
 
 ---
 
