@@ -1,10 +1,100 @@
-# 📊 Customer Churn Analysis Dashboard (Power BI)
+# 📊 Customer Churn Analysis Dashboard (Power BI + Python + SQL)
+
+## 🎯 Objective: 
+To analyze customer churn behavior, identify key factors influencing attrition, and deliver actionable insights to reduce churn and improve customer retention.
+
 ---
 ## 🧠 Overview
 
-This project analyzes customer churn behavior for a telecom company using **Power BI**.
-<br>
-It focuses on how **contract types, payment methods, internet services**, and customer tenure influence churn, with **DAX-driven** interactive insights and tooltips.
+This project presents an end-to-end **Customer Churn Analysis** for a telecom company.<br>
+Starting from **data cleaning** and **exploratory data analysis** in **Python**, moving through **SQL** segmentation, and culminating in an interactive **Power BI dashboard**, the goal was to uncover behavioral patterns behind customer churn and derive data-driven recommendations for retention strategies.
+
+---
+
+## 🧾 Dataset Information
+
+**Source:** [`Telco Customer Churn Dataset (Kaggle)`](https://www.kaggle.com/datasets/blastchar/telco-customer-churn)
+
+**File Used:** WA_Fn-UseC_-Telco-Customer-Churn.csv
+
+### 📚 Data Dictionary
+
+| Column | Description | Data Type |
+|------|-----|---------|
+| `customerID` | Unique identifier for each customer | String|
+| `gender` | Customer gender (Male/Female) | String |
+| `SeniorCitizen` | Indicates if the customer is a senior citizen (1/0) | Integer |
+| `Partner` | Whether the customer has a partner | String |
+| `Dependents` | Whether the customer has dependents |	String |
+| `tenure` |	Number of months the customer has stayed |	Integer |
+|  `Contract` |	Type of contract (Month-to-month, One year, Two year) |	String |
+|  `InternetService` |	Internet type (DSL, Fiber optic, No) |	String |
+|  `PaymentMethod` |	Billing method (Electronic check, Credit card, etc.) 	| String |
+|  `MonthlyCharges` |	Amount charged to the customer monthly |	Float |
+|  `TotalCharges`  |	Total amount charged  |	Float  |
+|  `Churn` |	Whether the customer left the company |	String |
+
+---
+## 🧹 Data Preparation (Python)
+
+- Performed data cleaning and transformation using Pandas:
+
+- Handled missing and inconsistent values (TotalCharges nulls converted, data types fixed).
+
+- Removed duplicates and whitespace inconsistencies.
+
+- Standardized categorical columns (title case, unified naming).
+
+- Created tenure_band and mc_quint (Monthly Charge Quintiles) for segmentation.
+
+- Exported clean dataset → [`telco_dataset_cleaned.csv`](.Datasets/telco_dataset_cleaned.csv).
+
+📁 File Location: `./Datasets/telco_dataset_cleaned.csv`
+
+---
+
+## 🧮 Exploratory Data Analysis (Python)
+
+**Libraries Used:**
+`pandas`, `numpy`, `matplotlib`, `seaborn`, `plotly`
+
+- Performed detailed EDA to identify churn drivers:
+
+- Churn distribution & overall rate
+
+- Tenure vs Churn % trend
+
+- Contract Type vs Churn Rate
+
+- Monthly Charges & Payment Method influence
+
+### 🖼️ Preview Charts:
+
+![](./Screenshots/scatter_tenure_vs_monthly_charges.png)
+
+![](./Screenshots/churn_by_contract.png)
+
+![](./Screenshots/tenure_dist_by_churn.png)
+
+![](./Screenshots/churn_vs_tenure_trend.png)
+
+_All the visualizations are available in the [`Screenshots`](./Screenshots/) folder._
+
+---
+
+## 🧩 SQL Analysis
+A few SQL queries were written to validate churn trends and segment data before Power BI visualization:
+
+sql
+```
+SELECT Contract, 
+       ROUND(SUM(CASE WHEN Churn = 'Yes' THEN 1 ELSE 0 END) * 100.0 / COUNT(*), 2) AS ChurnRate
+FROM telco_churn
+GROUP BY Contract;
+```
+**📁 File Location:** [`./Notebooks/02_data_eda.ipynb`]
+
+_To view the exploratory data analysis (EDA) file, [`click here`](./Notebooks/02_data_eda.ipynb)._
 
 ---
 
@@ -35,6 +125,25 @@ It focuses on how **contract types, payment methods, internet services**, and cu
   - Avg Monthly Charges
 
   - Custom insight measures for tooltip pages
+
+---
+
+## 📊 Power BI Dashboard
+
+The Power BI dashboard provides a clear, interactive view of churn patterns with:
+
+- KPI Cards (Customers, Churned, Churn Rate %)
+
+- Churn by Tenure Bands
+
+- Churn by Contract Type
+
+- Churn by Internet Service
+
+- Churn by Payment Method
+
+- Churn by Monthly Charges Quintiles
+
 ---
 
 ## 🗂️ Power BI Dashboard Overview
@@ -48,6 +157,10 @@ It focuses on how **contract types, payment methods, internet services**, and cu
 | 5️⃣ **TT Tenure** | Tenure-based customer retention trend |
 | 6️⃣ **TT Monthly** | Quintile-based monthly charge analysis |
 | 7️⃣ **TT Contract Donut** | Distribution of internet and payment types within each contract |
+
+---
+## 📸 Dashboard Preview
+![Main Dashboard Preview](./Dashboard_Screenshots/Main_Dashboard.png)
 
 ---
 
@@ -82,19 +195,17 @@ SWITCH(
     "Select a contract type."
 )
 ```
+
 ---
+## 💡 Key Insights
 
-## 📈 Key Business Insights
-
-  - 📊 Customers with short-term contracts show higher churn due to lack of retention offers.
-
-  - 💳 Electronic check payments are a strong churn indicator—customers prefer more secure options.
-
-  - 🌐 Fiber optic service customers churn more, likely due to performance or pricing dissatisfaction.
-
-  - 💰 High monthly charge quintiles experience medium churn—highlighting upsell but risk potential.
-
-  - 🕒 Loyalty improves with tenure—customers over 4 years have <10% churn.
+|Segment	|Observation|	Recommendation|
+|--|--|--|
+|📊 Contract Type	|Month-to-month users have the highest churn (42.7%)|	Promote annual plans with bundled discounts|
+|🌐 Internet Service	|Fiber optic customers show 41.9% churn|	Improve service quality and connection reliability|
+|💳 Payment Method	|Electronic check users show 45% churn	|Encourage auto-pay via credit card or bank transfer|
+|🕒 Tenure	|0–6 month customers churn 54.7%	|Improve onboarding and early engagement|
+|💰 Monthly Charges	|Higher-paying customers have moderate churn	|Offer loyalty benefits and premium support|
 
 ---
 
@@ -102,16 +213,54 @@ SWITCH(
 
 |Tool|Purpose|
 |----|-------|
+|**🐍 Python (Pandas, Seaborn, Matplotlib)**|Data cleaning and exploratory analysis|
+|**🧮 SQL (MySQL / DuckDB)**|Querying and validation|
 |🧠 **Power BI**|Dashboard visualization|
 |🧮 **DAX**|Calculations and insights|
 |🧹 **Excel/CSV**|Data preprocessing|
 |📊 **Power Query**|Cleaning & transformation|
+|**💻 GitHub**|Version control and portfolio hosting|
+
+---
+## 📁 Repository Structure
+|Folder|	Description|
+|--|--|
+|`/Datasets/`|	Raw and cleaned datasets|
+|`/SQL/`|	SQL queries for data segmentation|
+|`/Notebooks/`|	Python notebooks for EDA|
+|`/PBIX_File/`|	Power BI file (Customer_Churn.pbix)|
+|`/Dashboard_Screenshots/`|	Power BI dashboard visuals|
+|`/Screenshots/`|	EDA plots and data preview images|
+|`/Docs/`|	Supporting documentation|
+|`requirements.txt`|	Python dependencies|
 
 ---
 
-## 📸 Dashboard Preview
-![Main Dashboard Preview](./Dashboard_Screenshots/Main_Dashboard.png)
+## 🚀 Results & Impact
+
+- ✅ Identified high-risk churn segments (Month-to-Month, Fiber Optic, Electronic Check users).
+- ✅ Developed targeted retention strategies for each customer group.
+- ✅ Created interactive tooltip-based Power BI dashboard to drill down into specific behaviors.
+- ✅ Presented data storytelling insights for business decision-making.
 
 ---
 
+## 📎 References
+
+[`Telco Customer Churn Dataset – Kaggle`↗️](https://www.kaggle.com/datasets/blastchar/telco-customer-churn)
+
+[`Power BI Documentation`↗️]()
+
+[`Seaborn Official Docs`↗️]()
+
+---
+
+## 👤 Connect with me
+
+**Harshvardhan Rajgarhia**<br>
+📧 Email - `harsvardhanrajgarhia@gmail.com`<br>
+🔗 [`LinkedIn Profile`](www.linkedin.com/in/harshvardhan-rajgarhia-ba62982a4)<br>
+📁 [`Portfolio Repository`](https://github.com/Harsh1574/data-analytics-portfolio)<br>
+
+---
 
