@@ -249,14 +249,13 @@ SWITCH(
 
 [`Telco Customer Churn Dataset – Kaggle (Download dataset)`↗️](https://www.kaggle.com/datasets/blastchar/telco-customer-churn)
 
-[`Raw Dataset (CSV File)`↗️](https://www.kaggle.com/datasets/blastchar/telco-customer-churn)
+[`Raw Dataset (CSV File)`↗️](./Datasets/telco_dataset_raw.csv)
 
-[`Cleaned Dataset (CSV File)`↗️](https://www.kaggle.com/datasets/blastchar/telco-customer-churn)
+[`Cleaned Dataset (CSV File)`↗️](./Datasets/telco_dataset_cleaned.csv)
 
 [`Power BI Documentation`↗️](./PBIX_File/Customer_Churn_Dashboard.pbix)
 
 [`Power BI Dashboard`↗️](./PBIX_File/Customer_Churn_Dashboard.pbix)
-
 
 [`Seaborn Official Docs`↗️]()
 
