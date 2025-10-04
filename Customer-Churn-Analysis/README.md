@@ -297,7 +297,7 @@ SWITCH(
 
 [`Power BI Dashboard`↗️](./PBIX_File/Customer_Churn_Dashboard.pbix)
 
-[`Project Documentation`↗️](./PBIX_File/Customer_Churn_Dashboard.pbix)
+[`Project Documentation`↗️](./Docs/Customer_Churn_Analysis_Documentation.pdf)
 
 [`Dashboard Screenshots`↗️](./Dashboard_Screenshots/)
 
