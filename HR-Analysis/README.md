@@ -86,9 +86,7 @@ _This project requires Python 3.9+ and packages listed in [`requirements.txt`](.
    ```bash
    jupyter notebook HR-Attrition-Project.ipynb
 
-4. #### 🌐 (Optional) To run streamlit version:
-   ```bash
-   streamlit run dashboard.py
+
 
 ---
 
