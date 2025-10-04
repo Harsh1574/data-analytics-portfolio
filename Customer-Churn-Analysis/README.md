@@ -259,7 +259,7 @@ SWITCH(
 
 **Harshvardhan Rajgarhia**<br>
 📧 Email - `harsvardhanrajgarhia@gmail.com`<br>
-🔗 [`LinkedIn Profile`](www.linkedin.com/in/harshvardhan-rajgarhia-ba62982a4)<br>
+🔗 [`LinkedIn Profile`](https://www.linkedin.com/in/harshvardhan-rajgarhia-ba62982a4)<br>
 📁 [`Portfolio Repository`](https://github.com/Harsh1574/data-analytics-portfolio)<br>
 
 ---
