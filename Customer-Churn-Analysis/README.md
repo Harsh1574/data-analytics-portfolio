@@ -36,6 +36,39 @@ Starting from **data cleaning** and **exploratory data analysis** in **Python**,
 
 ---
 
+## ⚙️ Installation & Setup
+
+You can run this project in two ways: **directly on Google Colab** or **locally on your system**.
+
+---
+
+### ▶️ Option 1: Run on Google Colab (Recommended)
+No installation needed — just open the notebook and start running.
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Harsh1574/data-analytics-portfolio/blob/main/Customer-Churn-Analysis/PBIX_File/Customer-Churn-Dashboard.ipynb)
+
+---
+
+### 💻 Option 2: Run Locally
+1. #### 📥 Clone this repository:
+   ```bash
+   git clone https://github.com/Harsh1574/data-analytics-portfolio.git
+   cd data-analytics-portfolio/Customer_Churn_Analysis
+
+_This project requires Python 3.9+ and packages listed in [`requirements.txt`](./requirements.txt). To install dependencies run the command in Step 2👇_
+
+2. #### ⚙️ Install the required dependencies:
+   ```bash
+   pip install -r requirements.txt
+
+3. #### 🚀 Launch Jupyter Notebook:
+   ```bash
+   jupyter notebook PBIX_File/Customer_Churn_Dashboard.ipynb
+
+
+
+---
+
 ## 🧹 Data Preparation (Python)
 
 - Performed data cleaning and transformation using Pandas:
