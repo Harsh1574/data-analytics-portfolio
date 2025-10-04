@@ -35,6 +35,7 @@ Starting from **data cleaning** and **exploratory data analysis** in **Python**,
 |  `Churn` |	Whether the customer left the company |	String |
 
 ---
+
 ## 🧹 Data Preparation (Python)
 
 - Performed data cleaning and transformation using Pandas:
