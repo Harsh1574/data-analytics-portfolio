@@ -162,6 +162,11 @@ The Power BI dashboard provides a clear, interactive view of churn patterns with
 ## 📸 Dashboard Preview
 ![Main Dashboard Preview](./Dashboard_Screenshots/Main_Dashboard.png)
 
+_[**`Power BI Dashboard`**](./PBIX_File/Customer_Churn_Dashboard.pbix)↗️ - Explore the dashboard._
+
+**📁 File Location:** `./PBIX_File/Customer_Churn_Dashboard.pbix`
+
+
 ---
 
 ## 🧩 DAX Logic Example
@@ -245,7 +250,7 @@ SWITCH(
 
 ---
 
-## 📎 References
+## 📎 Quick Links
 
 [`Telco Customer Churn Dataset – Kaggle (Download dataset)`↗️](https://www.kaggle.com/datasets/blastchar/telco-customer-churn)
 
@@ -253,11 +258,21 @@ SWITCH(
 
 [`Cleaned Dataset (CSV File)`↗️](./Datasets/telco_dataset_cleaned.csv)
 
-[`Power BI Documentation`↗️](./PBIX_File/Customer_Churn_Dashboard.pbix)
-
 [`Power BI Dashboard`↗️](./PBIX_File/Customer_Churn_Dashboard.pbix)
 
-[`Seaborn Official Docs`↗️]()
+[`EDA Notebook`↗️](./Notebooks/02_data_eda.ipynb)
+
+[`Data cleaning and exploration file`↗️](./Notebooks/01_data_overview.ipynb)
+
+[`Python Dependencies File`↗️](./requirements.txt)
+
+[`Dashboard Screenshots`↗️](./Dashboard_Screenshots/)
+
+[`Python Visualizations Screenshots`↗️](./Screenshots/)
+
+[`Business Insights & Recommendations`↗️](./Docs/insights.md)
+
+[`Project Documentation`↗️](./PBIX_File/Customer_Churn_Dashboard.pbix)
 
 ---
 
