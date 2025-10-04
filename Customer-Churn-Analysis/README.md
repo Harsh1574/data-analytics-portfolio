@@ -45,10 +45,10 @@ You can run this project in two ways: **directly on Google Colab** or **locally 
 ### ▶️ Option 1: Run on Google Colab (Recommended)
 No installation needed — just open the notebook and start running.
 
-**Data Overview:**
+**Data Exploration:**
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Harsh1574/data-analytics-portfolio/blob/main/Customer-Churn-Analysis/Notebooks/01_data_overview.ipynb)
 
-**Data Visualisation and SQL Querying:**
+**Exploratory Data Analysis:**
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Harsh1574/data-analytics-portfolio/blob/main/Customer-Churn-Analysis/Notebooks/02_data_eda.ipynb)
 
 ---
@@ -67,8 +67,12 @@ _This project requires Python 3.9+ and packages listed in [`requirements.txt`](.
 
 3. #### 🚀 Launch Jupyter Notebook:
    ```bash
+   # Launch notebooks for data exploration
    jupyter notebook Notebooks/01_data_overview.ipynb
+
+   # Launch notebooks for exploratory data analysis
    jupyter notebook Notebooks/02_data_eda.ipynb
+
    ```
 ---
 
