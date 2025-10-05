@@ -13,7 +13,7 @@ Starting from **data cleaning** and **exploratory data analysis** in **Python**,
 
 ## 🧾 Dataset Information
 
-**Source:** [`Telco Customer Churn Dataset (Kaggle)`](https://www.kaggle.com/datasets/blastchar/telco-customer-churn)
+**Source:** [`Telco Customer Churn Dataset (Kaggle)`↗️](https://www.kaggle.com/datasets/blastchar/telco-customer-churn)
 
 **File Used:** WA_Fn-UseC_-Telco-Customer-Churn.csv
 
