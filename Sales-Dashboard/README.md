@@ -43,8 +43,8 @@ It provides executives and managers with actionable insights on revenue, profit,
 ---
 
 ### 📊 Datasets
-- [Cleaned Dataset (CSV)](./Sales-Datasets/Cleaned-Datasets/) → Final dataset used for analysis
-- [Raw Dataset (CSV)](./Sales-Datasets/Original-Datasets/) → Original dataset before cleaning
+- [`Cleaned Dataset (CSV)`](./Sales-Datasets/Cleaned-Datasets/) → Final dataset used for analysis
+- [`Raw Dataset (CSV)`](./Sales-Datasets/Original-Datasets/) → Original dataset before cleaning
 
 Data cleaning steps applied: 
 - Removed duplicates 
