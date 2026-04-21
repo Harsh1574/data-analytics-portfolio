@@ -7,7 +7,7 @@ To analyze customer churn behavior, identify key factors influencing attrition, 
 ## 🧠 Overview
 
 This project presents an end-to-end **Customer Churn Analysis** for a telecom company.<br>
-Starting from **data cleaning** and **exploratory data analysis** in **Python**, moving through **SQL** segmentation, culminating in an interactive **Power BI dashboard**, and extending into a **machine learning classification model** that predicts individual customer churn risk — the goal was to uncover behavioral patterns behind customer churn and derive data-driven recommendations for retention strategies.
+Starting from **data cleaning** and **exploratory data analysis** in **Python**, moving through **SQL** segmentation, culminating in an interactive **Power BI dashboard** — the goal was to uncover behavioral patterns behind customer churn and derive data-driven recommendations for retention strategies.
 
 ---
 
@@ -51,9 +51,6 @@ No installation needed — just open the notebook and start running.
 **Exploratory Data Analysis:**
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Harsh1574/data-analytics-portfolio/blob/main/Customer-Churn-Analysis/Notebooks/02_data_eda.ipynb)
 
-**Churn Prediction Model:**
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Harsh1574/data-analytics-portfolio/blob/main/Customer-Churn-Analysis/Notebooks/03_churn_model.ipynb)
-
 ---
 
 ### 💻 Option 2: Run Locally
@@ -77,9 +74,6 @@ _This project requires Python 3.9+ and packages listed in [`requirements.txt`](.
 
    # Launch notebooks for exploratory data analysis
    jupyter notebook Notebooks/02_data_eda.ipynb
-
-   # Launch notebook for churn prediction model
-   jupyter notebook Notebooks/03_churn_model.ipynb
    ```
 ---
 
